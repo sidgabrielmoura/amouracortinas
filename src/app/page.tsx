@@ -35,7 +35,7 @@ export default function HomePage() {
     {
       name: "Carlos Mendes",
       city: "Recife, PE",
-      comment: "A equipe foi muito profissional do começo ao fim. Recomendo fortemente a A.Moura.",
+      comment: "A equipe foi muito profissional do começo ao fim. Recomendo fortemente",
     },
     {
       name: "Fernanda Lima",
