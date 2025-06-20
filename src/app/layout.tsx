@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import AnimatedCursor from 'react-animated-cursor'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,10 +24,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <AnimatedCursor
+          innerSize={10}
+          outerSize={30}
+          color="255, 215, 0"
+          outerAlpha={0.3}
+          innerScale={0.6}
+          outerScale={2}
+        />
         {children}
       </body>
     </html>
