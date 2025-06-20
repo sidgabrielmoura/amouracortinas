@@ -104,7 +104,7 @@ vim pelo site!`
               logo da empresa
             </div>
           </div>
-          <p className="text-xl md:text-2xl mb-8 font-light leading-relaxed">
+          <p className="text-xl px-7 md:text-2xl mb-8 font-light leading-relaxed">
             Transformamos ambientes com cortinas sob medida de alta qualidade. Sofisticação e conforto para o seu lar.
           </p>
           <Button
@@ -117,7 +117,7 @@ vim pelo site!`
         </div>
       </section>
 
-      <section className="py-20 px-4">
+      <section className="py-20 px-7">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl border border-zinc-300 rounded-full p-4 font-bold text-gray-800 mb-4">
@@ -188,7 +188,7 @@ vim pelo site!`
       </section>
 
       {/* About Section */}
-      <section className="py-20 px-4 bg-gray-50">
+      <section className="py-20 px-7 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -245,14 +245,14 @@ vim pelo site!`
                 height={600}
                 className="rounded-4xl shadow-2xl object-center object-cover"
               /> */}
-              <div className="w-[500px] h-[600px] rounded-2xl bg-gray-200 flex justify-center items-center">imagem aqui</div>
+              <div className="w-full h-[400px] rounded-2xl bg-gray-200 flex justify-center items-center">imagem aqui</div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Gallery Section */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-7">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl border border-zinc-300 rounded-full p-4 font-bold text-gray-800 mb-4">
@@ -297,7 +297,7 @@ vim pelo site!`
       </section>
 
       {/* Services Section */}
-      <section className="py-20 px-4 bg-gray-50">
+      <section className="py-20 px-7 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl border border-zinc-300 rounded-full p-4 font-bold text-gray-800 mb-4">
@@ -356,7 +356,7 @@ vim pelo site!`
         </div>
       </section>
 
-      <section className="relative h-[80vh] px-2 flex items-center justify-center overflow-hidden">
+      <section className="relative h-[80vh] px-7 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div
             className="object-cover bg-[url('/assets/curtain-gold.jpg')] bg-fixed bg-center bg-no-repeat bg-cover w-full h-full"
@@ -424,7 +424,7 @@ vim pelo site!`
 
 
       {/* Quote Form Section */}
-      <section className="py-20 bg-gray-50 px-4" id="orçamento">
+      <section className="py-20 bg-gray-50 px-3" id="orçamento">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl border border-zinc-300 rounded-full p-4 font-bold text-gray-800 mb-4">
@@ -437,7 +437,7 @@ vim pelo site!`
           </div>
 
           <Card className="shadow-xl border-0">
-            <CardContent className="p-8">
+            <CardContent className="p-3">
               <form className="space-y-6" onSubmit={handleWppMessage}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
@@ -530,13 +530,13 @@ vim pelo site!`
         href="https://wa.me/5585992295470"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 z-50"
+        className="fixed bottom-6 right-7 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 z-50"
       >
         <MessageCircle className="w-6 h-6" />
       </a>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white flex justify-center py-12 px-4">
+      <footer className="bg-gray-900 text-white flex justify-center py-12 px-7">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center">
             <div>
